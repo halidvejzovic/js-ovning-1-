@@ -7,10 +7,10 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-<button onclick="test" >klicka hät </button>
+<button onclick="test()" id="text" >klicka hät </button>
 <script>
     function test() {
-        alert("hej!");
+    document.getElementById("text").textContent = "Hej Halid";
     }
 </script>
 
