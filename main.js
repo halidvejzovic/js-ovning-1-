@@ -1,4 +1,4 @@
 
-    function test() {
-    document.getElementById("text").textContent = "Hej Halid";
-    }
+document.getElementById("text").addEventListener("input",function(){
+    console.log("du skriver något");
+});
