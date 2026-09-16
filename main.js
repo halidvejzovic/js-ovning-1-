@@ -9,8 +9,21 @@ for(let i = 0; i < 10; i++){
 
 alert("Summan av talen från 0 till 9 år:" + sum);*/
 
-let pRef = document.getElementById("text");
+let pRef;
 
-console.log(pRef);
+function init() {
+   let pRef = document.getElementById("text"); 
+    console.log(pRef);
 
-pRef.innerHTML = "Hej! Välkommen till vår webbplats.";
+    pRef.innerHTML = "Hej! Välkommen till vår webbplats.";
+
+    pRef.style.color = "blue";
+}
+
+window.onload = init;
+
+
+
+
+
+
