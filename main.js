@@ -10,6 +10,7 @@ for(let i = 0; i < 10; i++){
 alert("Summan av talen från 0 till 9 år:" + sum);*/
 
 let pRef = document.getElementById("text");
-pRef.innerHTML = "Hej! Välkommen till vår webbplats.";
 
 console.log(pRef);
+
+pRef.innerHTML = "Hej! Välkommen till vår webbplats.";
