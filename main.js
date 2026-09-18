@@ -13,7 +13,10 @@ let pRef, buttonRef;
 
 function init() {
     pRef = document.getElementById("text"); 
+
     buttonRef = document.getElementById("myButton");
+    buttonRef2 = document.getElementById("myButtons");
+   
     console.log(pRef);
     console.log(buttonRef);
     
@@ -22,6 +25,7 @@ function init() {
     pRef.style.color = "blue";
 
     buttonRef.addEventListener("click", changeText);
+    buttonRef2.addEventListener("click", changeText2);
 
 }
 
@@ -32,6 +36,10 @@ function changeText() {
     pRef.style.color = "red";
 }
 
+function changeText2(){
+    pRef.innerHTML = "Du klickade igen på knappen";
+    pRef.style.color = "yellow";
+}
 
 
 
