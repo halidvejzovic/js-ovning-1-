@@ -27,7 +27,10 @@ function init() {
     pRef.style.color = "blue";
 
     buttonRef.addEventListener("mouseover", changeText);
-    buttonRef2.addEventListener("mouseover", changeText2);
+    buttonRef2.addEventListener("mouseover", event =>{
+        changeText2();
+        addText();
+});
 
 }
 
