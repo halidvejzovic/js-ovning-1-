@@ -9,7 +9,8 @@ for(let i = 0; i < 10; i++){
 
 alert("Summan av talen från 0 till 9 år:" + sum);*/
 
-let pRef, buttonRef;
+let pRef, buttonRef, buttonRef2;
+
 
 function init() {
     pRef = document.getElementById("text"); 
@@ -24,8 +25,8 @@ function init() {
 
     pRef.style.color = "blue";
 
-    buttonRef.addEventListener("click", changeText);
-    buttonRef2.addEventListener("click", changeText2);
+    buttonRef.addEventListener("mouseover", changeText);
+    buttonRef2.addEventListener("mouseover", changeText2);
 
 }
 
