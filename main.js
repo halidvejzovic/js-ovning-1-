@@ -83,8 +83,11 @@ function hej() {
 hej()*/
 //för att skriva ut functionen ska man skriva hej()
 
-for (let i = 1; i<5; i++ ) {
-    console.log(i); 
+let i = "*";
+
+for (i = 1; i<7; i++ ) {
+    
+    console.log("fr"); 
 }
 
 //for loop måste ha, for (start; villkor; ökning)
