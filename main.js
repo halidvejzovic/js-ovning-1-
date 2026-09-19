@@ -95,9 +95,9 @@ for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
 //for loop måste ha, for (start; villkor; ökning)
 
 
-for (let i = 1; i<=100; i++) {
+for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökningav i till det kommer upp till 100
 
-    if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) { 
         console.log("FizzBuzz");
     }
 
