@@ -50,6 +50,21 @@ function addText(){
     sectionRef.innerHTML += "<p>detta är en ny parragraf</p>";*/
 
 
+let pRef
 
+function pyramid()  {
     
+    pRef = document.getElementById("text");
 
+    inuti();
+}
+
+window.onload = pyramid;
+
+function inuti() {
+
+    let last = "*"
+    let namn = "^"
+    pRef.innerHTML = last + namn;
+    
+}
