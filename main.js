@@ -85,11 +85,11 @@ hej()*/
 
 let pyramid = ""; // defination av pyramid
 
-for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökninggav i
+for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
     
-    pyramid += "*"; //definationn av pyramid samt att den ökaar meed ett
+    pyramid += "*"; //definationn av pyramid dvs att den skriver ut det som är inom "" samt att den ökar meed ett
     
-    console.log(pyramid); // skriv ut i consol variabeln pyramid
+    console.log(pyramid); // skriv ut i consol värdet variabeln pyramid
 }
 
 //for loop måste ha, for (start; villkor; ökning)
