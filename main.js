@@ -69,8 +69,17 @@ function inuti() {
 }
 */
 
-let namn = "Halid";
+/*let namn = "Halid";
 
 if (namn === "Halid") {
     console.log("Hej!");
 }
+
+function hej() {
+    console.log("hej!");
+    
+}
+
+hej()*/
+//för att skriva ut functionen ska man skriva hej()
+
