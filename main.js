@@ -50,7 +50,7 @@ function addText(){
     sectionRef.innerHTML += "<p>detta är en ny parragraf</p>";*/
 
 
-let pRef
+/*let pRef
 
 function pyramid()  {
     
@@ -66,5 +66,11 @@ function inuti() {
     let last = "*"
     let namn = "^"
     pRef.innerHTML = last + namn;
-    
+}
+*/
+
+let namn = "Halid";
+
+if (namn === "Halid") {
+    console.log("Hej!");
 }
