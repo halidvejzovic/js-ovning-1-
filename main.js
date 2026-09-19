@@ -83,9 +83,9 @@ function hej() {
 hej()*/
 //för att skriva ut functionen ska man skriva hej()
 
-let pyramid = "*";
+let pyramid = "";
 
-for (i = 1; i<7; i++ ) {
+for (i = 1; i<=7; i++ ) {
     
     pyramid += "*";
     
