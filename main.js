@@ -96,10 +96,10 @@ for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
 
 
 for (let i = 1; i<=10; i++) {
-    if(i % 3) {
+    if(3 % i) {
         console.log("Fizz");
     }
-    if (i % 5) {
+    if (5 % i) {
         console.log("Buzz");
     }
     else {
