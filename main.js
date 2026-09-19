@@ -9,7 +9,7 @@ for(let i = 0; i < 10; i++){
 
 alert("Summan av talen från 0 till 9 år:" + sum);*/
 
-let pRef, buttonRef, buttonRef2, sectionRef;
+/*let pRef, buttonRef, buttonRef2, sectionRef;
 
 
 function init() {
@@ -47,8 +47,9 @@ function changeText2(){
 }
 
 function addText(){
-    sectionRef.innerHTML += "detta är en ny parragraf";
+    sectionRef.innerHTML += "<p>detta är en ny parragraf</p>";*/
 
-}
 
+
+    
 
