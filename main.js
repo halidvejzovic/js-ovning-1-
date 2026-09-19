@@ -95,14 +95,18 @@ for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
 //for loop måste ha, for (start; villkor; ökning)
 
 
-for (let i = 1; i<=10; i++) {
-    if(3 % i) {
+for (let i = 1; i<=100; i++) {
+    if(i % 3 === 0) {
         console.log("Fizz");
     }
-    if (5 % i) {
+    if (i % 3 === 0) {
         console.log("Buzz");
     }
-    else {
+    if (i % 3, 5 === 0) {
+        console.log("FizzBuzz");
+    }
+    else{
         console.log(i);
+        
     }
 }
