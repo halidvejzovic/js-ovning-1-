@@ -87,7 +87,7 @@ let pyramid = ""; // defination av pyramid
 
 for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
     
-    pyramid += "*"; //definationn av pyramid dvs att den skriver ut det som är inom "" samt att den ökar meed ett
+    pyramid += "#"; //definationn av pyramid dvs att den skriver ut det som är inom "" samt att den ökar meed ett
     
     console.log(pyramid); // skriv ut i consol värdet variabeln pyramid
 }
@@ -95,3 +95,14 @@ for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
 //for loop måste ha, for (start; villkor; ökning)
 
 
+for (let i = 1; i<=10; i++) {
+    if(i % 3) {
+        console.log("Fizz");
+    }
+    if (i % 5) {
+        console.log("Buzz");
+    }
+    else {
+        console.log(i);
+    }
+}
