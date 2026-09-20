@@ -113,17 +113,16 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
     }
 }
 */
+let rad = "*";
+for (let i = 0; i < 8; i++) {
+    
+    rad +="*";
 
-let kolumn = "*"
-for (let i = 0; i <8; i++) {
-
-    if (i % 2 === 0) {
-        console.log(" ");
-    }
-
-   
-   
 }
+
+console.log(rad);
+   
+
 
 
 
