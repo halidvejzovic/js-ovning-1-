@@ -121,7 +121,16 @@ for (let i = 0; i < 8; i++) {
 console.log(rad);  */
 
 
-for ()
+for (let i = 0; i < 8; ++i) {
+
+    let rad = ""
+    for (let i = 0; i < 8; i++) {
+        rad +="* ";
+    }
+    console.log(rad);
+    
+}
+
 
 
 
