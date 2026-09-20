@@ -125,9 +125,8 @@ for (let i = 0; i < 8; ++i) {
 
     let rad = ""
     for (let i = 0; i < 8; i++) {
-        rad +="* ";
+        rad +="*";
     }
-
     console.log(rad);
     
 }
