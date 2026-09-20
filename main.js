@@ -84,7 +84,6 @@ hej()*/  //för att skriva ut functionen ska man skriva "hej()"
 
 /*
 let pyramid = ""; // defination av pyramid
-
 for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
     
     pyramid += "#"; //definationn av pyramid dvs att den skriver ut det som är inom "" samt att den ökar meed ett
@@ -113,18 +112,16 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
     }
 }
 */
-let rad = "*";
+/*
+let rad = "\n";
 for (let i = 0; i < 8; i++) {
-    
-    rad +="*";
-
+    rad +="* ";
 }
 
-console.log(rad);
-   
+console.log(rad);  */
 
 
-
+for ()
 
 
 
