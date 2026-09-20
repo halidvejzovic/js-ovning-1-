@@ -121,17 +121,12 @@ for (let i = 0; i < 8; i++) {
 console.log(rad);  */
 
 
-for (let i = 0; i < 8; ++i) {
+for (let kolumn = 0; kolumn < 8; ++kolumn) {
 
     let rad = ""
     for (let i = 0; i < 4; i++) {
-
-        if(i % 2 === 0) {
-            console.log(" ");
-            
-        }
-
-        rad +="*";
+        
+        rad +="* ";
     }
     console.log(rad);
     
