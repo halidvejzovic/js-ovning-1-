@@ -113,12 +113,7 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
 }
 
 
-let rad = "\n";
-for (let i = 0; i < 8; i++) {
-    rad +="* ";
-}
 
-console.log(rad);  
 
 
 for (let kolumn = 0; kolumn < 8; ++kolumn) {
