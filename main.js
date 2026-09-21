@@ -82,7 +82,7 @@ function hej() {
 hej()*/  //för att skriva ut functionen ska man skriva "hej()"
 
 
-/*
+
 let pyramid = ""; // defination av pyramid
 for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
     
@@ -93,7 +93,7 @@ for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
 
 //for loop måste ha, for (start; villkor; ökning)
 
-/*
+
 for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökningav i till det kommer upp till 100
 
     if (i % 3 === 0 && i % 5 === 0) { 
@@ -111,14 +111,14 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
         console.log(i);
     }
 }
-*/
-/*
+
+
 let rad = "\n";
 for (let i = 0; i < 8; i++) {
     rad +="* ";
 }
 
-console.log(rad);  */
+console.log(rad);  
 
 
 for (let kolumn = 0; kolumn < 8; ++kolumn) {
