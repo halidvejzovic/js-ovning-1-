@@ -110,6 +110,7 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
     else{
         console.log(i);
     }
+
 }*/
 
 let schak = "";
@@ -131,4 +132,10 @@ for (let kolumn = 0; kolumn < 8; kolumn++) {
 
 console.log(schak);
 
+//schak = schak + "*";
 
+/*
+Programmet bygger ett schackbräde genom att använda två loopar. Den yttre loopen skapar raderna och den inre loopen skapar tecknen 
+på varje rad. Med hjälp av (rad + kolumn) % 2 === 0 avgör programmet om det ska lägga till en stjärna eller ett mellanslag. 
+Efter varje färdig rad läggs \n till för att skapa en ny rad. När allt är klart skrivs hela schackbrädet ut med console.log(). 🚀
+*/
