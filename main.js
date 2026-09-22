@@ -81,7 +81,7 @@ function hej() {
 
 hej()*/  //för att skriva ut functionen ska man skriva "hej()"
 
-
+/*
 
 let pyramid = ""; // defination av pyramid
 for (let i = 1; i<=7; i++ ) { //defination av i samt start, vilkor, ökningav i
@@ -110,18 +110,17 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
     else{
         console.log(i);
     }
-}
+}*/
 
-
-
-
-
+let schak = ""
 for (let kolumn = 0; kolumn < 8; ++kolumn) {
 
-    let rad = ""
     for (let i = 0; i < 4; i++) {
         
-        rad +="* ";
+        if((row + kolumn) %2 === 0) {
+        schak +=" ";    
+        }
+        
     }
     console.log(rad);
     
