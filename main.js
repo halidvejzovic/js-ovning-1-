@@ -113,16 +113,19 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
 }*/
 
 let schak = ""
-for (let kolumn = 0; kolumn < 8; ++kolumn) {
+
+for (let kolumn = 0; kolumn < 8; kolumn++) {
 
     for (let i = 0; i < 4; i++) {
         
-        if((row + kolumn) %2 === 0) {
-        schak +=" ";    
+        if((kolumn + i) % 2 === 0) {
+        schak +="*";    
         }
-        
+        else {
+            schak += " ";
+        }
     }
-    console.log(rad);
+    console.log(schak);
     
 }
 
