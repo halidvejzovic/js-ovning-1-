@@ -112,23 +112,24 @@ for (let i = 1; i<=100; i++) { // //defination av i samt start, vilkor, ökninga
     }
 }*/
 
-let schak = ""
+let schak = "";
 
 for (let kolumn = 0; kolumn < 8; kolumn++) {
 
     for (let i = 0; i < 4; i++) {
         
-        if((kolumn + i) % 2 === 0) {
+        if ((kolumn + i) % 2 === 0) {
         schak +="*";    
         }
         else {
             schak += " ";
         }
+
+        schak += "\n";
     }
-    console.log(schak);
     
 }
 
-
+console.log(schak);
 
 
