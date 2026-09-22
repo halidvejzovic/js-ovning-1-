@@ -116,17 +116,16 @@ let schak = "";
 
 for (let kolumn = 0; kolumn < 8; kolumn++) {
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 8; i++) {
         
         if ((kolumn + i) % 2 === 0) {
-        schak +="*";    
+        schak += "*";    
         }
         else {
             schak += " ";
         }
-
-        schak += "\n";
     }
+        schak += "\n";
     
 }
 
